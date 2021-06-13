@@ -1,0 +1,26 @@
+***A simplified client-server solution for file management***
+
+Steps to run the application of client-server:
+
+1: Extract the sent Zipfile and first run the run_server.py file
+2: Now run the client.py file in another terminal and request the server 
+   for the processes to be handled.
+
+note:- when started first time user must register first.
+
+
+Files included in the zipfile:
+
+1. run_server.py
+2. class_server.py
+3. logic_server.py
+4. client.py
+5. commands.txt
+6. log.txt
+7. loginlog.txt
+8. testing.py
+9. Test_report.pdf
+10.user_manual.txt
+
+** Enter the command, 'commands' to know the list of commands the server can handle.
+

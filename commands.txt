@@ -1,0 +1,27 @@
+THE AVAILABLE COMMANDS ARE:
+
+1.change_folder <name>:
+	Changes the current working directory to the given directory.If the <name> of the directory does not exist then error will be displayed.
+
+2.list:
+	Lists all the files in the current working directory  and also with size and date of modification for each file.
+
+3.read_file<name>:
+	This command reads the file<name> in the current working directory and prints first hundred characters and then  
+	returns the next hundred words and continues until all the characters in the file are read.
+
+4.write_file<name><input>:
+	 This command writes the <input> data into the given file <name> in the current working directory.
+	 If file does not exist then it creates a file and writes in it.
+
+5.create_folder<name>:
+	A new folder is created in current working directory. If already a folder exists with the given <name> then an error is displayed.
+
+6.register<username><password>:
+	 A new user can be registered with a new <username> and <password>. If the username or password already exists then it returns an error.
+	
+7.login<username><password>:
+	The user logsin to the server with his <username> and <password>. If the username or password does not match then it returns
+	an error.
+8.Quit:
+	This command helps the user to quit from the server.
